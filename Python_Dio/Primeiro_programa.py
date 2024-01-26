@@ -61,3 +61,18 @@ print(int(idade))
 
 #se tentar converter uma string para um float ou int que seja um texto ocorrera um erro dentro do programa por que não é um numero e sim uma sequência de carácter.
 preco = 'python'
+
+#Em Python para atribuir um valor a uma variável a qual sera feita uma pergunta ao usuário usamos o comando input, com isso ele jogará automaticamente o valor recebido para dentro da variável.
+
+#aqui esta jogando a resposta do usuário para dentro de uma variável que será uma string
+nome = input ("Informe seu nome: ")
+#aqui esta jogando a resposta do usuário para dentro de uma variável que será um int
+idade = input ("Informe a sua idade: ")
+
+#aqui ele exibirá na tela os valores informados.
+print(nome, idade)
+#Aqui vai exibir os valores colocando os ... e dando uma quebra de linha.
+print(nome, idade, end = "... \n")
+
+#Aqui vai exibir os valores colocando # entre os valores.
+print(nome, idade, sep = "#")
