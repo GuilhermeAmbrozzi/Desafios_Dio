@@ -74,6 +74,11 @@ int main(int argc, char *argv[]) {
 	printf("Quantos personagens deseja criar ? ");
 	scanf("%d", &criarPersonagens);
 	
+	if (criarPersonagens <= 0 || criarPersonagens > 5) {
+        printf("Número inválido de personagens. Digite novamente.\n");
+       	scanf("%d", &criarPersonagens);
+    }
+	
 	for (i=0; i < criarPersonagens;i++){
 		printf("Digite o nome do personagem:  " );
 		scanf("%s", &inicial[i].nome);
