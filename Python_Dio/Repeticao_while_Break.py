@@ -9,4 +9,8 @@ while True:
         # Comando para sair do loop.
         break
     
+    if numero % 2 == 0:
+        # Esse comando vai travar a exibição dos números pares mais se eu colocasse ele antes do break esse laço nunca iria parar.
+        continue
+    
     print(numero)
