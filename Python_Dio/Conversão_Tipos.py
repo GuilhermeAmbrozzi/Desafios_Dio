@@ -43,3 +43,14 @@ print(nome, idade, end = "... \n")
 
 #Aqui vai exibir os valores colocando # entre os valores.
 print(nome, idade, sep = "#")
+
+# A função len em Python é uma função embutida que retorna o número de itens em um objeto. Ela pode ser usada para contar o número de caracteres em uma string, o número de elementos em uma lista, o número de chaves em um dicionário, entre outras aplicações. A função len é muito útil quando precisamos saber o tamanho de um objeto ou quando queremos iterar sobre seus elementos.
+
+# Lê a variável de entrada
+T = input()
+
+# Verifica se o comprimento da string é maior que 140
+if len(T) <= 140:
+    print("TWEET")
+else:
+    print("MUTE")
