@@ -30,7 +30,7 @@ while True:
             sys.exit()  # Encerra a execução do programa
         else:
                 saldo += deposito
-                extrato += f"Depósito: +{deposito}\n"
+                extrato += f"Depósito: + R${deposito:.2f}\n"
     elif opcao == "b":
         
         saque = float(input(" Saque informe o valor: "))
@@ -46,7 +46,7 @@ while True:
         
         if numero_saques < LIMITE_SAQUES:
             saldo -= saque
-            extrato += f"Saque: -{saque}\n"
+            extrato += f"Saque: - R$ {saque:.2f}\n"
             numero_saques += 1
         else:
             print("Número de limites de saques atingidos. Volte amanhã!!")
