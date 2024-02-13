@@ -123,7 +123,7 @@ print(thislist)
 thislist.sort(reverse = True)
 print(thislist)
 
-# []LEN, posso usalo para ver um tamanho de string mais também para ver o tamanho da lista.
+# []LEN, posso usá-lo para ver um tamanho de string mais também para ver o tamanho da lista.
 
 thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 print(len(thislist))
